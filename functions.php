@@ -11,7 +11,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Define constants.
  */
+<<<<<<< HEAD
 define( 'RESPONSIVE_THEME_VERSION', '4.7.2' );
+=======
+define( 'RESPONSIVE_THEME_VERSION', '4.7.3' );
+>>>>>>> 50342cce8434e0452f5c0eaac0aa65afd79c3cb5
 define( 'RESPONSIVE_THEME_DIR', trailingslashit( get_template_directory() ) );
 define( 'RESPONSIVE_THEME_URI', trailingslashit( esc_url( get_template_directory_uri() ) ) );
 define( 'RESPONSIVE_PRO_OLDER_VERSION_CHECK', '2.4.2' );

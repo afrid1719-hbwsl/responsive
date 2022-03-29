@@ -1,5 +1,9 @@
 image:
+<<<<<<< HEAD
   file: .gitpod.Dockerfile
+=======
+  file: .gitpod.dockerfile
+>>>>>>> 50342cce8434e0452f5c0eaac0aa65afd79c3cb5
 
 ports:
   - port: 8080
@@ -18,4 +22,8 @@ tasks:
     command: apache2ctl start # start Apache server
   
   # start MailHog (SMTP testing tool) 
+<<<<<<< HEAD
   - command: mailhog -api-bind-addr 127.0.0.1:8025 -ui-bind-addr 127.0.0.1:8025 -smtp-bind-addr 127.0.0.1:1025
+=======
+  - command: mailhog -api-bind-addr 127.0.0.1:8025 -ui-bind-addr 127.0.0.1:8025 -smtp-bind-addr 127.0.0.1:1025
+>>>>>>> 50342cce8434e0452f5c0eaac0aa65afd79c3cb5

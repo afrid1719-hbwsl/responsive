@@ -37,4 +37,8 @@
     });
 
   });
+<<<<<<< HEAD
 })(jQuery);
+=======
+})(jQuery);
+>>>>>>> 50342cce8434e0452f5c0eaac0aa65afd79c3cb5
